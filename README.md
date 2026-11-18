@@ -53,6 +53,10 @@ This is the **baseline**. In the next tasks, requests that deviate from it
 (for example unknown endpoints, other users' order IDs, or bursts of
 401/403/404 responses) will stand out as suspicious.
 
+## Task reflection
+
+I wrote a Python script that generates a 500-line fake API log for five users, mostly GET and POST requests to `/orders`, then parses it and counts requests per user and endpoint. I saved the summary table in `baseline_output.txt` and documented how to run the script and interpret the output here. To make the traffic realistic and repeatable, I used weighted random choices (about 70% GET and 30% POST), a small number of 400 responses, and a fixed seed. I kept attack and suspicious traffic out of this baseline because that belongs in a later task.
+
 ## Files
 
 - `log_baseline.py` – generator + analyzer
