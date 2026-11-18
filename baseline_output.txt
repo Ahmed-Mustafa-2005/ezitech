@@ -1,0 +1,30 @@
+=== Brew & Bean Cafe - Baseline Traffic Summary ===
+Total requests: 500
+
+Requests per user
+User ID       Requests    Share
+-------------------------------
+user_101           102   20.4%
+user_102            87   17.4%
+user_103           104   20.8%
+user_104           103   20.6%
+user_105           104   20.8%
+
+Requests per endpoint
+Endpoint          Requests    Share
+-----------------------------------
+GET /orders            355   71.0%
+POST /orders           145   29.0%
+
+Requests per user and endpoint
+User ID        GET /orders  POST /orders
+----------------------------------------
+user_101                78            24
+user_102                61            26
+user_103                62            42
+user_104                68            35
+user_105                86            18
+
+Status codes
+  200: 498 (99.6%)
+  400: 2 (0.4%)
