@@ -1,0 +1,42 @@
+[
+  {
+    "line": 506,
+    "label": "Brute Force"
+  },
+  {
+    "line": 507,
+    "label": "Brute Force"
+  },
+  {
+    "line": 508,
+    "label": "Brute Force"
+  },
+  {
+    "line": 511,
+    "label": "Brute Force"
+  },
+  {
+    "line": 512,
+    "label": "Brute Force"
+  },
+  {
+    "line": 733,
+    "label": "IDOR"
+  },
+  {
+    "line": 829,
+    "label": "IDOR"
+  },
+  {
+    "line": 847,
+    "label": "IDOR"
+  },
+  {
+    "line": 848,
+    "label": "IDOR"
+  },
+  {
+    "line": 849,
+    "label": "IDOR"
+  }
+]
